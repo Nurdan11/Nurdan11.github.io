@@ -1,0 +1,200 @@
+*{ /*относиться ко всем тэгам  */
+   padding: 0; 
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body{
+    background-image:url(../img/akatsu.jpg);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+}
+
+@font-face{
+   font-family: Roboto;
+   src:url(../Fonts/Roboto-Regular.ttf)
+}
+
+main{
+   width: 80%;
+   background-color: brown;
+   padding: 50px;
+   margin: auto;
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   box-shadow:1px 1px 10px black;
+   margin-top:40px;
+   margin-bottom: 40px;
+}
+
+h1{
+   width: 100px;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: darkgrey;
+    text-shadow:1px 1px 10px black;
+    font-style:italic;
+    font-weight: bold;
+}
+
+p{
+   width: 100%;
+   font-size: 25px;
+   margin-bottom: 20px;
+   color: green;
+   font-style: italic;
+   font-weight: bold;
+}
+
+
+.link{
+   width: auto;
+   display: block;
+   padding:10px;
+   color:green;
+   border: 2px solid black;
+   margin-top: 20px;
+   margin-right: 200px;
+   margin-left: 200px; 
+}
+
+.link:hover{
+   color:blueviolet;
+   background-color: gray;
+   border: 2px solid orange;
+}
+
+
+.photo{
+   width: 200px;
+   height: 200px;
+   background-color: chocolate;
+   margin: 10px;
+   transition: all 0.6s ease;
+}
+
+.photo:hover{
+   transform: scale(1.4);
+}
+
+.photo1{
+   background-image: url(../img/14.jpg);
+   background-size: cover;
+   width: 500px;
+   height: 300px;
+}
+.photo1:hover{
+   background-image: url(../img/Акацуки.jpg);
+}
+
+.photo2{
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+ }
+ .photo2:hover{
+   background-image: url(../img/Конан.jpg);
+}
+
+ .photo3{
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+ }
+ .photo3:hover{
+   background-image: url(../img/Итачи.jpg);
+}
+
+ .photo4{
+    background-image: url(../img/3.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+ }
+ .photo4:hover{
+   background-image: url(../img/Кисаме.jpg);
+}
+
+ .photo5{
+    background-image: url(../img/12.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+ }
+ .photo5:hover{
+   background-image: url(../img/Орочимару.jpg);
+}
+
+ .photo6{
+    background-image: url(../img/13.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+ }
+ .photo6:hover{
+   background-image: url(../img/Сасори.jpg);
+}
+
+ .photo7{
+    background-image: url(../img/5.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+ }
+ .photo7:hover{
+   background-image: url(../img/Дейдара.jpg);
+}
+
+ .photo8{
+    background-image: url(../img/7.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+ }
+ .photo8:hover{
+   background-image: url(../img/Какузу.jpg);
+}
+
+ .photo9{
+    background-image: url(../img/6.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+ }
+ .photo9:hover{
+   background-image: url(../img/Хидан.jpg);
+}
+
+ .photo10{
+    background-image: url(../img/10.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+ }
+ .photo10:hover{
+   background-image: url(../img/Зетцу.jpg);
+}
+
+ .photo11{
+    background-image: url(../img/8.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+ }
+ .photo11:hover{
+   background-image: url(../img/Пейн.jpg);
+}
+
+ .photo12{
+    background-image: url(../img/9.jpg);
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+ }
+ .photo12:hover{
+   background-image: url(../img/Тоби.jpg);
+}
